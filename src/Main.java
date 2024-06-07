@@ -1,12 +1,13 @@
-import calculadora.calculadora;
+import calculadora.Calculadora;
 
 public class Main {
     public static void main(String[] args) {
-        calculadora calculadora = new calculadora();
+        Calculadora calculadora = new Calculadora();
 
-        calculadora.soma(5, 5);
-        calculadora.subtrai(10, 5);
-        calculadora.multiplica(2,5);
-        calculadora.divide(10,2);
+        //float soma = calculadora.soma(5, 5);
+        //float subtracao = calculadora.subtrai(10, 5);
+        //float multiplicacao = calculadora.multiplica(2,40);
+        //float divicao = calculadora.divide(6,2);
+        float porcentagem = calculadora.porcentagem(100,500);
     }
 }
