@@ -17,7 +17,7 @@ public class Main {
             contador--;
         }
 
-        int numero = 8;
+        int numero = 2;
 
         switch (numero) {
             case 1:
