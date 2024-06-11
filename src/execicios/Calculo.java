@@ -45,8 +45,9 @@ public class Calculo {
 
         //5. Desenvolva um algoritmo em Java que leia um número inteiro e imprima o seu antecessor e seu sucessor.
         int numero = 5;
-        System.out.println("o antecessor de " + numero + " é " + --numero);
-        numero = 5;
-        System.out.println("o sucessor de " + numero + " é " + ++numero);
+        int antecessor = numero - 1;
+        int sucessor = numero + 1;
+        System.out.println("o antecessor de " + numero + " é " + antecessor);
+        System.out.println("o sucessor de " + numero + " é " + sucessor);
     }
 }
